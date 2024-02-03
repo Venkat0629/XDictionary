@@ -38,10 +38,8 @@ export default function XDictionary() {
         onChange={handleChange}
         placeholder="Search for a word..."
       />
-      <button onClick={handleClick}>Search</button>
-      <div className={styles.wrapper}>
-        <strong> Definition: </strong>
-      </div>
+      <button onClick={handleClick}>Search</button>{" "}
+      <h4 className={styles.wrapper}> Definition: </h4>
       {meaning && <p className={styles.text}>{meaning}</p>}
     </div>
   );
