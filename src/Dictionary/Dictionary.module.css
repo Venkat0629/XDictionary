@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: left;
+}
+.text {
+  width: 50vw;
+  padding: 10px 20px;
+  background-color: rgb(239, 243, 255);
+  border: 0px;
+  border-radius: 8px;
+  text-wrap: wrap;
+  text-align: left;
+}
